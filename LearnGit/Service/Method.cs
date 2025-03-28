@@ -10,5 +10,15 @@ namespace LearnGit.Service
     {
         List<Employee> employees = new List<Employee>();
         List<Teacher> teachers = new List<Teacher>();
+
+        public void AddEmployee(Employee employee)
+        {
+            employees.Add(employee);
+        }
+
+        public void AddTeacher(Teacher teacher)
+        {
+            teachers.Add(teacher);
+        }
     }
 }
