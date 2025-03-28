@@ -14,6 +14,9 @@ namespace LearnGit
 
             method.AddEmployee(employee);
             method.AddTeacher(teacher);
+
+            method.PrintEmployee();
+            method.PrintTeacher();
         }
     }
 }
