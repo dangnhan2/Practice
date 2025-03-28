@@ -10,5 +10,11 @@ namespace LearnGit
     {
         public string Subject { get; set; } = string.Empty;
         public int YearsOfExperience { get; set; }
+
+        public Teacher(int Id, string Name, DateTime birthDate, string Subject, int YearsOfExperience) : base(Id, Name, birthDate)
+        {
+            this.Subject = Subject;
+            this.YearsOfExperience = YearsOfExperience;
+        }
     }
 }
